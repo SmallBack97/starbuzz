@@ -1,30 +1,82 @@
+
+#drinks {
+  display: table-cell;
+  background:       #efe5d0 url(images/background.gif) bottom right;
+  font-size:        105%;
+  width: 20%;
+  padding:          15px;
+  
+  vertical-align: top;
+ 
+
+}
+
+
 body { 
   background-color: #b5a789;
   font-family:      Georgia, "Times New Roman", Times, serif;
   font-size:        small;
   margin:           0px;
+ 
 }
 
 #header {
+
   background-color: #675c47;
-  margin:           10px;
+  margin: 10px 10px 0px 10px;
   height:           108px;
 }
+#taozi{
+  background-color: #675c47;
+}
+
+
+#p1{
+  background-color: #675c47;
+  display:inline-block;
+background-image: url("images/header.gif");
+width: 400px;
+height: 108px;
+
+
+}
+
+#p2 {
+  background-color: #675c47;
+  float: right;
+display:inline-block;
+background-image: url("images/header.gif");
+background-position: -400px 108px;
+width: 400px;
+height: 108px;
+
+}
+
+
+
+
 
 #main {
+  display: table-cell;
   background:       #efe5d0 url(images/background.gif) top left;
   font-size:        105%;
   padding:          15px;
-  margin:           0px 330px 10px 10px;
+
+  vertical-align: top;
+
 }
 
 #sidebar {
+  display: table-cell;
   background:       #efe5d0 url(images/background.gif) bottom right;
   font-size:        105%;
   padding:          15px;
-  margin:           0px 10px 10px 10px;
-  width: 280px;
-  float: right;
+ 
+ 
+ 
+
+  vertical-align: top;
+
 
 }
 
@@ -33,9 +85,9 @@ body {
   color:            #efe5d0;
   text-align:       center;
   padding:          15px;
-  margin:           10px;
+  margin: 0px 10px 10px 10px;
   font-size:        90%;
-  clear: right;
+  
 }
 
 h1 {
@@ -59,4 +111,31 @@ a:visited {
   color:            #675c47;
   text-decoration:  none;
   border-bottom:    thin dotted #675c47;
+}
+
+#allcontent{
+  width: 800px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: #675c47;
+  margin-left: auto;
+  margin-right:auto;
+}
+
+div#tableContainer{
+  display: table;
+
+}
+div#tableRow{
+  display: table-row;
+
+}
+
+#tableContainer{
+  display: table;
+  border-spacing: 10px;
+}
+
+#tableRow{
+  display: table-row;
 }
