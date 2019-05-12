@@ -12,47 +12,6 @@
 }
 
 
-nav{
-
-  background-color: #efe5d0;
-  margin: -5px 10px 1px 10px;
-
-}
-nav ul{
-  margin: 0px;
-  list-style-type: none;
-  padding: 5px 0px 5px 0px
-}
-nav ul li {
-  display:inline;
-  padding: 5px 10px 5px 10px;
-
-}
-
-nav ul li a:link, nav ul li a:visited{
-  color:#954b4b;
-  border-bottom: none;
-  font-weight: bold;
-
-}
-nav ul li.selected{
-  background-color: #c8b99c;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 body { 
   background-color: #b5a789;
   font-family:      Georgia, "Times New Roman", Times, serif;
@@ -61,28 +20,12 @@ body {
  
 }
 
-
-
-
 #header {
 
   background-color: #675c47;
   margin: 10px 10px 0px 10px;
   height:           108px;
 }
-
-.top{
-
-  background-color: #675c47;
-  margin: 10px 10px 0px 10px;
-  height:           108px;
-  
-}
-
-
-
-
-
 #taozi{
   background-color: #675c47;
 }
@@ -99,8 +42,8 @@ height: 108px;
 }
 
 #p2 {
-background-color: #675c47;
-float: right;
+  background-color: #675c47;
+  float: right;
 display:inline-block;
 background-image: url("images/header.gif");
 background-position: -400px 108px;
@@ -109,34 +52,11 @@ height: 108px;
 
 }
 
-#award{
-  position: absolute;
-  top:30px;
-  left:500px;
-}
-
-#coupon{
-
-  position: fixed;
-  top:350px;
-  left: -250px;
-
-  transition:  1s ;
-
-}
-#coupon:hover{
-  position: fixed;
-  top:300px;
-  transform:translate(250px);
-}
 
 
 
 
-
-
-
-#main, section#blog{
+#main {
   display: table-cell;
   background:       #efe5d0 url(images/background.gif) top left;
   font-size:        105%;
@@ -219,30 +139,3 @@ div#tableRow{
 #tableRow{
   display: table-row;
 }
-ul{
-  background-color: #efe5d0;
-  margin: 10PX 10PX 0PX 10PX;
-  list-style-type: none;
-  padding: 5PX 0PX 5PX 0PX;
-
-}
-ul li{
-  display: inline;
-  padding: 5px 10px 5px 10px;
-}
-ul li a:link, ul li a:visited{
-  color: #954b4b;
-  border-bottom: none;
-  font-weight: bold;
-}
-
-  ul li.selected{
-    background-color: #c8b99c;
-  }
-
-  aside{
-
-    background:       #efe5d0 url(images/background.gif) bottom right;
-   
-    top:100px;
-  }
